@@ -770,7 +770,7 @@
     </h1>
     <p class="hero-role">
       Building <strong>scalable data pipelines</strong> and turning raw data into decisions.<br/>
-      Azure · AWS · SQL · Python
+      Python · AWS · SQL · PySpark
     </p>
     <div class="hero-actions">
       <a href="#projects" class="btn-primary">View Projects</a>
@@ -782,38 +782,38 @@
   <div class="ticker-wrap">
     <div class="ticker-inner">
       <!-- duplicate for seamless loop -->
-      <span class="ticker-item"><span class="dot"></span>Azure Data Factory</span>
+       <span class="ticker-item"><span class="dot"></span>Azure Data Factory</span>
+      <span class="ticker-item"><span class="dot"></span>Azure Data Lake</span>
       <span class="ticker-item"><span class="dot"></span>Azure Synapse Analytics</span>
       <span class="ticker-item"><span class="dot"></span>PySpark</span>
       <span class="ticker-item"><span class="dot"></span>SQL</span>
       <span class="ticker-item"><span class="dot"></span>Power BI</span>
       <span class="ticker-item"><span class="dot"></span>ETL Pipelines</span>
       <span class="ticker-item"><span class="dot"></span>Data Warehousing</span>
-      <span class="ticker-item"><span class="dot"></span>Snowflake</span>
+      <span class="ticker-item"><span class="dot"></span>AWS IAM</span>
       <span class="ticker-item"><span class="dot"></span>AWS S3</span>
       <span class="ticker-item"><span class="dot"></span>AWS Lambda</span>
       <span class="ticker-item"><span class="dot"></span>AWS Athena</span>
       <span class="ticker-item"><span class="dot"></span>AWS EC2</span>
       <span class="ticker-item"><span class="dot"></span>Data Modeling</span>
       <span class="ticker-item"><span class="dot"></span>Python</span>
-      <span class="ticker-item"><span class="dot"></span>Azure Data Lake</span>
       <span class="ticker-item"><span class="dot"></span>Git &amp; GitHub</span>
       <!-- repeat -->
       <span class="ticker-item"><span class="dot"></span>Azure Data Factory</span>
+      <span class="ticker-item"><span class="dot"></span>Azure Data Lake</span>
       <span class="ticker-item"><span class="dot"></span>Azure Synapse Analytics</span>
       <span class="ticker-item"><span class="dot"></span>PySpark</span>
       <span class="ticker-item"><span class="dot"></span>SQL</span>
       <span class="ticker-item"><span class="dot"></span>Power BI</span>
       <span class="ticker-item"><span class="dot"></span>ETL Pipelines</span>
       <span class="ticker-item"><span class="dot"></span>Data Warehousing</span>
-      <span class="ticker-item"><span class="dot"></span>Snowflake</span>
+      <span class="ticker-item"><span class="dot"></span>AWS IAM</span>
       <span class="ticker-item"><span class="dot"></span>AWS S3</span>
       <span class="ticker-item"><span class="dot"></span>AWS Lambda</span>
       <span class="ticker-item"><span class="dot"></span>AWS Athena</span>
       <span class="ticker-item"><span class="dot"></span>AWS EC2</span>
       <span class="ticker-item"><span class="dot"></span>Data Modeling</span>
       <span class="ticker-item"><span class="dot"></span>Python</span>
-      <span class="ticker-item"><span class="dot"></span>Azure Data Lake</span>
       <span class="ticker-item"><span class="dot"></span>Git &amp; GitHub</span>
     </div>
   </div>
@@ -874,7 +874,7 @@
           <span class="skill-tag">Aws Lambda</span>
           <span class="skill-tag">Aws Athena</span>
           <span class="skill-tag">Aws EC2</span>
-          <span class="skill-tag">Snowflake</span>
+          <span class="skill-tag">Aws Glue</span>
         </div>
       </div>
       <div class="skill-group">
@@ -882,7 +882,6 @@
         <div class="skill-tags">
           <span class="skill-tag">Python</span>
           <span class="skill-tag">SQL</span>
-          <span class="skill-tag">HiveQL</span>
           <span class="skill-tag">PySpark</span>
           <span class="skill-tag">HTML / CSS</span>
         </div>
@@ -894,7 +893,7 @@
           <span class="skill-tag">Data Warehousing</span>
           <span class="skill-tag">Data Modeling</span>
           <span class="skill-tag">Star Schema</span>
-          <span class="skill-tag">Big Data (Spark/Hadoop)</span>
+          <span class="skill-tag">Big Data (Apache Spark)</span>
         </div>
       </div>
       <div class="skill-group">
@@ -956,31 +955,45 @@
     <div class="projects-grid reveal">
       <div class="project-card">
         <div class="project-year">2025</div>
-        <div class="project-title">Azure Data Lake Implementation via Synapse Analytics</div>
-        <p class="project-desc">End-to-end data lake architecture using Azure Storage with structured raw → silver → gold layers. Integrated Synapse workspace for ETL, PySpark for transformation, and SQL for business logic — producing a scalable pipeline ready for analytics and reporting.</p>
+        <div class="project-title">Sales Data Warehouse and Analytics Pipeline using Amazon Redshift</div>
+        <p class="project-desc">Loaded raw sales data from Amazon S3 into Amazon Redshift and built a structured
+                                sales reporting workflow for analytics.
+                                Created staging and reporting tables, validated records, and wrote SQL queries for
+                                revenue, city-wise sales, and product performance analysis.
+                                Applied data cleaning checks such as handling duplicates, missing values, and
+                                cancelled orders before reporting.</p>
         <div class="project-stack">
-          <span class="stack-badge">Azure Data Factory</span>
-          <span class="stack-badge">Azure Synapse</span>
-          <span class="stack-badge">PySpark</span>
-          <span class="stack-badge">ETL</span>
+          <span class="stack-badge">Amazon Web Services</span>
+          <span class="stack-badge">Aws S3</span>
+          <span class="stack-badge">Aws Redshift</span>
           <span class="stack-badge">SQL</span>
+          <span class="stack-badge">Query Editor V2</span>
+          <span class="stack-badge">Jupyter Notebook</span>
         </div>
-        <a href="https://github.com/Renukadeviananthan14" class="project-link" target="_blank">
+        <a href="https://github.com/Renukadeviananthan14/AWS-Data-Warehouse-using-S3-Redshift-" class="project-link" target="_blank">
           View on GitHub →
         </a>
       </div>
       <div class="project-card">
         <div class="project-year">2025</div>
-        <div class="project-title">AWS Serverless ETL Data Pipeline</div>
-        <p class="project-desc">Developed a serverless ETL pipeline using AWS S3, Lambda, and Athena to automate data ingestion and processing. Utilized Python for data transformation and cleansing, storing processed data in S3 for analytics. Performed SQL-based querying with Athena to generate insights and support data-driven decision-making. Demonstrated skills in AWS, Python, SQL, ETL development, and cloud-based data engineering. </p>
+        <div class="project-title">Cloud ETL Pipeline using AWS S3, Python, Pandas, and Boto3</div>
+        <p class="project-desc">Built an end-to-end ETL pipeline to extract Blinkit Sales Performance data from Amazon
+                                S3, transform it using Python (Pandas), and load the processed data back into Amazon
+                                S3 using Boto3.
+                                Configured AWS CLI v2 and IAM with secure S3 access, enabling seamless integration
+                                between Jupyter Notebook and AWS services for automated data processing.
+                                Performed data cleaning, transformation, and business analysis by handling duplicates,
+                                missing values, and completed orders, generating insights on revenue, product
+                                performance, city-wise sales, delivery delays, and delivery partner performance.</p>
         <div class="project-stack">
           <span class="stack-badge">AWS S3</span>
-          <span class="stack-badge">AWS Lambda</span>
-          <span class="stack-badge">AWS Athena</span>
+          <span class="stack-badge">ETL</span>
+          <span class="stack-badge">Data Warehouse</span>
           <span class="stack-badge">Python</span>
-          <span class="stack-badge">SQL</span>
+          <span class="stack-badge">IAM</span>
+          <span class="stack-badge">AWS CLI v2</span>
         </div>
-        <a href="https://github.com/Renukadeviananthan14" class="project-link" target="_blank">
+        <a href="https://github.com/Renukadeviananthan14/Aws-s3-pandas-etl-pipeline" class="project-link" target="_blank">
           View on GitHub →
         </a>
       </div>
